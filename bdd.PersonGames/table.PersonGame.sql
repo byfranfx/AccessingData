@@ -1,0 +1,9 @@
+CREATE TABLE [dbo].[Persongame]
+(
+	[Id] INT NOT NULL PRIMARY KEY IDENTITY,
+	[PersonId] INT NOT NULL,
+	[GameId] INT NOT NULL,
+	CONSTRAINT [FK_PersonGame_Person] FOREIGN KEY (PersonId) REFERENCES Person(Id),
+	CONSTRAINT [FK_PersonGame_Game] FOREIGN KEY (GameId) REFERENCES Games(Id)
+	
+)

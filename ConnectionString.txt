@@ -1,0 +1,17 @@
+How to get ConnectionString:
+
+
+	1. Open VisualStudio.
+	2. View ¬ Sql server Object Explorer.
+	3. Open the DBB.
+	4. Right Click on BDD (PersonGames)
+	5. Properties
+	6. ConnectionString
+
+	Example:
+
+	Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=PersonGames;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False
+
+
+	// Data File:
+	C:\Users\byfra\AppData\Local\Microsoft\Microsoft SQL Server Local DB\Instances\MSSQLLocalDB\PersonGames.mdf
